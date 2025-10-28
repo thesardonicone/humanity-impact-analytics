@@ -98,11 +98,11 @@ with st.sidebar:
 # LOAD CLEANED DATASETS
 # =====================================================
 datasets = {
-    "🦠 COVID-19 Pandemic Data": "clean_covid-19 (1).csv",
-    "🐖 H1N1 (Swine Flu) Data": "clean_h1n1_data.csv",
-    "🌫️ Air Pollution (PM2.5)": "clean_pm25_air_pollution (1).csv",
-    "🚗 Road Accident Fatalities": "clean_who_road_deaths (3).csv",
-    "⚔️ Conflict & War Fatalities": "clean_conflict_fatalities (1).csv",
+    "🦠 COVID-19 Pandemic Data": "covid19_pandemic_data.csv",
+    "🐖 H1N1 (Swine Flu) Data": "h1n1_swine_flu_data.csv",
+    "🌫️ Air Pollution (PM2.5)": "air_pollution_pm25.csv",
+    "🚗 Road Accident Fatalities": "road_accident_fatalities.csv",
+    "⚔️ Conflict & War Fatalities": "conflict_war_fatalities.csv",
 }
 
 st.title(f"{dataset_option} 🌍 Analytics")
@@ -233,3 +233,4 @@ Dark Theme | Powered by Data | Built with Streamlit ⚙️
 </p>
 </center>
 """, unsafe_allow_html=True)
+
